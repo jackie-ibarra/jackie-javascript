@@ -19,7 +19,7 @@
     let z = ( x * y);
     console.log(z);
 
-    //Math on my own
+    // Math on my own
     console.log("Math on my own");
 
     let a = 3;
@@ -46,18 +46,52 @@
     let i = (g/h);
     console.log(i);
 
-    //Working with strings 
+    // Working with strings 
 
     console.log ("Working with strings:");
     let firstName = 'Jackie';
+    let middleName = 'Julie';
     let lastName = 'Ibarra';
-    let name = (firstName + " " + lastName);
+    let name = (firstName + " " + middleName + " " + lastName);
     console.log (name);
 
-    //Stringsonmyown
+    // Stringsonmyown
 
     let greeting = ('My name is' + ' ' + name);
     console.log(greeting);
+
+    console.log("Using functions:");
+
+    // function to make square numbers 
+    function makeSquare(theNum) {
+      let squared = theNum * theNum;
+      return squared;
+    }
+
+    let try01 = makeSquare(3);
+    console.log(try01);
+
+    let try02 = makeSquare (237);
+    console.log (try02);
+
+    let try03 = makeSquare (8);
+    console.log (try03);
+
+    // functions on my own
+    console.log("functions on my own");
+    function makeName (firstName, middleName, lastName) {
+      let fullName = (firstName + " " + middleName + " " + lastName);
+      return fullName;
+    }
+
+    let trialrun1 = makeName ('Jackie', 'Julie' ,'Ibarra');
+    console.log (trialrun1);
+
+    let trialrun2 = makeName ('Sandra', 'Dorthy', 'Dee');
+    console.log (trialrun2);
+
+    let trialrun3 = makeName ('Robert', '"Beto"', 'O\'Rourke');
+    console.log (trialrun3);
   </script>
 </body>
 </html>
